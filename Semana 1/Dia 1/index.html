@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>
+    Qiobo Lobo
+  </title>
+  <!-- This is just a comment, this meta allows the accent -->
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+
+  <style>
+    body {
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .rojo {
+      color: red;
+      background: #2196f3;
+    }
+
+    #rojo {
+      color: #3949ab;
+      background: yellow;
+      font-size: 50px;
+    }
+
+    section {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <section class="centrado">
+    <h1>Quienes somos?</h1>
+    <p>Aprendiendo html</p>
+  </section>
+  <section>
+    <h2 id="rojo">Contactanos</h2>
+    <p>Somos amigables</p>
+  </section>
+  <section>
+    <article>
+      <h2 class="rojo">Titulo 1</h2>
+      <p>yeah</p>
+    </article>
+    <article>
+      <h2>Titulo 2</h2>
+      <p>jejeje</p>
+    </article>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <script>
+  $('h1').click(function(){
+    $('h1').toggle();
+  });
+
+  $('h2').click(function(){
+    $('h1').toggle();
+  });
+  </script>
+</body>
+
+</html>
